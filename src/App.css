@@ -1,0 +1,213 @@
+@font-face {
+    font-family: scr1;
+    src: url(./component/fonts/PFLiberaPro-Liberissima.ttf);
+}
+@font-face {
+    font-family: scr2;
+    src: url(./component/fonts/Stripe.ttf);
+}
+@font-face {
+    font-family: epilepsy;
+    src: url(./component/fonts/Scruff_Di.ttf);
+}
+
+.App {
+ /* text-align: center;*/
+  overflow:  hidden;/*!!!!!!*/
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  width: 20vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /*position: absolute;*/
+  /*width: 100%;/*!!!!*/
+  border-radius: 0 0 20px 20px;/*!!!!*/
+  /*z-index: 9; /*!!!!*/
+  /*height: 20%;/*!!!!*/
+}
+
+
+.App-header p{
+  font-family: scr1;
+  font-size: 24pt;
+}
+.App-header quote{
+  font-size: 18pt;
+}
+
+.App-content{
+   /* float: left;*/
+   /* background-color: #61dafb;*/
+	display: flex;
+}
+
+
+.left{
+	width: 30%;
+	display: flex;
+	z-index:8;
+}
+
+
+.circle{
+	margin: 50% 10%;/*95% 0 0 5%*/
+    background-color: black;
+    color: white;
+	font-size: 24pt;
+	font-family: scr1;
+	flex-direction: column nowrap;
+    border-radius: 125px;
+    height: 250px;
+    width: 250px;
+	position: relative;
+	text-align: center;
+	
+   /* position: absolute;
+    bottom: 20%;*/
+}
+
+.circle:hover{
+    background-color: #282c34;
+	transition: 0.5s;
+}
+
+/*чтобы текст в круге не расползался*/
+.centertext{
+	height: 50px;
+	width: 250px;
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    margin: auto 0;
+	display: block;
+}
+
+/*скрыть список*/
+.left .circle #down{
+	display: none;
+}
+			
+/* отображаем выпадающий список при наведении */
+.left .circle:hover > #down {
+    display: block;
+	width: 100%;/*дабы боле-менее фиксировалось при наведении*/
+	flex-direction: column nowrap;
+	position: relative;/*чтобы не уезжало влево*/
+	/*left: 100%;*/
+	z-index: 9;
+	/*background-color: yellow;*/
+}
+
+	
+	
+.circle-little{
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: black;
+	color: white;
+	font-size: 16pt;	
+	font-family: epilepsy;
+	letter-spacing:3pt;
+	flex-direction: column nowrap;
+	border: none;
+	outline: none;
+}
+
+.circle-little:hover{
+    background-color: #282c34;
+    transition: 0.5s;
+	/*
+	-webkit-transform: scale(1.1);
+	transform: scale(1.2);
+	*/
+}
+
+/*
+#down{
+	background-color: yellow;
+	width: 500px;
+	margin: 0 0 0 10px;
+}*/
+
+#c1{
+	margin: 1px 0px 4px 220px;
+}
+#c2{	
+    margin: 1px 0px 4px 240px;
+}
+#c3{	
+    margin: 1px 0px 4px 240px;
+}
+#c4{
+    margin: 1px 0px 4px 220px;
+}
+
+#down:hover #c1 {
+	margin: 12px 0px 6px 230px;
+    transition: margin 0.5s;
+}
+#down:hover #c2 {
+	margin: 2px 0px 6px 250px;
+    transition: margin 1s;
+}
+#down:hover #c3 {
+	margin: 2px 0px 6px 250px;
+    transition: margin 1.5s;
+}
+#down:hover #c4 {
+	margin: 2px 0px 6px 230px;
+    transition: margin 2s;
+}
+
+.right{
+	width: 70%;
+	height: 100%;
+	margin: 0 10%;/*!!!!*/
+    /*background-color: green;*/
+}
+
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+a:active{
+	text-decoration:none;
+}
+
+/*WHAT IS IT??????
+.App-link {
+  color: #61dafb;
+}
+*/
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+

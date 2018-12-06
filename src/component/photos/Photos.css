@@ -1,0 +1,52 @@
+@import "../../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
+@font-face {
+    font-family: scr1;
+    src: url(C:/Users/Юля/bear/src/component/fonts/PFLiberaPro-Liberissima.ttf);
+}
+@font-face {
+    font-family: scr2;
+    src: url(C:/Users/Юля/bear/src/component/fonts/Stripe.ttf);
+}
+@font-face {
+    font-family: epilepsy;
+    src: url(C:/Users/Юля/bear/src/component/fonts/Scruff_Di.ttf);
+}
+
+.Photos-content {
+	margin: 10px;
+	padding: 5px;
+	align-items: center;
+	height: 460px;
+	overflow-x: auto;
+	overflow-y: auto;
+	border-radius: 100px;
+	position: absolute;
+}
+.Photos-content::-webkit-scrollbar {
+    width: 10px;
+}
+.Photos-content::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+.Photos-content::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+.Photos-content::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.text{
+	text-align: center;
+    background-color: black;
+    color: white;
+	font-size: 20pt;
+	font-family: epilepsy;
+	letter-spacing:5pt;
+    border-radius: 50px;
+    height: 32pt;
+	width: 200px;
+	margin: 0 auto 10px auto;
+	padding: 10pt;
+}

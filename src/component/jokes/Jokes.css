@@ -1,0 +1,127 @@
+@font-face {
+    font-family: scr1;
+    src: url(C:/Users/Юля/bear/src/component/fonts/PFLiberaPro-Liberissima.ttf);
+}
+@font-face {
+    font-family: scr2;
+    src: url(C:/Users/Юля/bear/src/component/fonts/Stripe.ttf);
+}
+@font-face {
+    font-family: epilepsy;
+    src: url(C:/Users/Юля/bear/src/component/fonts/Scruff_Di.ttf);
+}
+
+
+
+.Jokes-content{
+	/*align-items: center;*/
+	height: 500px;
+	position: absolute;
+	/*background-color: green;*/
+	overflow-x: auto;
+	overflow-y: auto;
+	border-radius: 100px;
+	margin-top: 20px;
+}
+
+.textJ{
+	text-align: center;
+    background-color: black;
+    color: white;
+	font-size: 20pt;
+	font-family: epilepsy;
+	letter-spacing:5pt;
+    border-radius: 50px;
+    height: 32pt;
+	width: 200px;
+	margin: 20px auto 10px auto;
+	padding: 10pt;
+}
+
+.cloud{
+	background-color:  #61dafb;
+	color: black;
+	font-size: 14pt;
+	/*font-family: epilepsy;*/
+	/*letter-spacing:5pt;*/
+    border-radius: 10px;
+	width: 90%;
+	margin: 5px auto;
+	padding: 10pt 20pt;
+	white-space: pre-wrap;/*для переноса строк*/
+}
+.cloud:hover{
+	background-color: grey;
+    transition: 1s;
+}
+
+.name{
+	font-size: 14pt;
+	font-family: scr1;
+	text-align: right;
+	margin-right: 10px;
+}
+.copy{
+	font-size: 18pt;
+}
+
+/*
+.contentJ{
+	align-items: center;
+	height: 10%;
+	overflow-x: auto;
+	overflow-y: auto;
+}*/
+.Photos-content::-webkit-scrollbar {
+    width: 10px;
+}
+.Photos-content::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+.Photos-content::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+.Photos-content::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.form{
+	margin: 20px 0;
+	font-size: 14pt;
+	/*background-color: red;*/
+}
+
+.select{
+    border-radius: 40px;
+    /*background-color: black;
+	color: white;*/
+	font-size: 20pt;	
+	font-family: scr2;
+	margin: 0 10px;
+	padding: 4px;
+}
+
+
+.but{
+	text-align: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #3f4552;
+	color: white;
+	font-size: 20pt;	
+	font-family: scr2;
+	border: none;
+	outline: none;
+	margin: 0 10px;
+}
+.but:hover{
+	background-color: #545c6e;
+	transition: 0.5s;
+}
+
+
+
+
+

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: scr1;
+    src: url(C:/Users/Юля/bear/src/component/fonts/PFLiberaPro-Liberissima.ttf);
+}
+@font-face {
+    font-family: scr2;
+    src: url(C:/Users/Юля/bear/src/component/fonts/Stripe.ttf);
+}
+@font-face {
+    font-family: epilepsy;
+    src: url(C:/Users/Юля/bear/src/component/fonts/Scruff_Di.ttf);
+}
+.textJ{
+    background-color: black;
+    color: white;
+	font-size: 20pt;
+	font-family: epilepsy;
+	letter-spacing:5pt;
+    border-radius: 50px;
+    height: 32pt;
+	width: 200px;
+	margin: 20px auto 10px auto;
+	padding: 10pt;
+}
+.textSpan{
+	text-align: left;
+}
